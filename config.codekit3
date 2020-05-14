@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/deploy/img/Logo/logo-footer.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -117,231 +127,231 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 4/wristbandactivity.jpeg": {
+	"/deploy/img/Section 3/wristbandactivity.jpeg": {
 		"ft": 16384,
 		"iS": 155904,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 4/wristbandactivity.jpg",
+		"oAP": "/deploy/img/Section 3/wristbandactivity.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/bjorn.jpeg": {
+	"/deploy/img/Section 4/bjorn.jpeg": {
 		"ft": 16384,
 		"iS": 85482,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/bjorn.jpg",
+		"oAP": "/deploy/img/Section 4/bjorn.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/bohemianpink.jpeg": {
+	"/deploy/img/Section 4/bohemianpink.jpeg": {
 		"ft": 16384,
 		"iS": 50082,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/bohemianpink.jpg",
+		"oAP": "/deploy/img/Section 4/bohemianpink.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/chestnutgrill.jpeg": {
+	"/deploy/img/Section 4/chestnutgrill.jpeg": {
 		"ft": 16384,
 		"iS": 60916,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/chestnutgrill.jpg",
+		"oAP": "/deploy/img/Section 4/chestnutgrill.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/kilian.jpeg": {
+	"/deploy/img/Section 4/kilian.jpeg": {
 		"ft": 16384,
 		"iS": 119335,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/kilian.jpg",
+		"oAP": "/deploy/img/Section 4/kilian.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/market.jpeg": {
+	"/deploy/img/Section 4/market.jpeg": {
 		"ft": 16384,
 		"iS": 286857,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/market.jpg",
+		"oAP": "/deploy/img/Section 4/market.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/quetzal.jpeg": {
+	"/deploy/img/Section 4/quetzal.jpeg": {
 		"ft": 16384,
 		"iS": 78008,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/quetzal.jpg",
+		"oAP": "/deploy/img/Section 4/quetzal.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 5/serendipity.jpeg": {
+	"/deploy/img/Section 4/serendipity.jpeg": {
 		"ft": 16384,
 		"iS": 415000,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/serendipity.jpg",
+		"oAP": "/deploy/img/Section 4/serendipity.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 6/map.jpeg": {
+	"/deploy/img/Section 5/map.jpeg": {
 		"ft": 16384,
 		"iS": 135406,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 6/map.jpg",
+		"oAP": "/deploy/img/Section 5/map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo1.png": {
+	"/deploy/img/Section 6/logo1.png": {
 		"ft": 32768,
 		"iS": 8038,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo1.png",
+		"oAP": "/deploy/img/Section 6/logo1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo10 copy.png": {
+	"/deploy/img/Section 6/logo10 copy.png": {
 		"ft": 32768,
 		"iS": 4786,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo10 copy.png",
+		"oAP": "/deploy/img/Section 6/logo10 copy.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo10.png": {
+	"/deploy/img/Section 6/logo10.png": {
 		"ft": 32768,
 		"iS": 7910,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo10.png",
+		"oAP": "/deploy/img/Section 6/logo10.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo2.png": {
+	"/deploy/img/Section 6/logo2.png": {
 		"ft": 32768,
 		"iS": 7827,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo2.png",
+		"oAP": "/deploy/img/Section 6/logo2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo3.png": {
+	"/deploy/img/Section 6/logo3.png": {
 		"ft": 32768,
 		"iS": 10264,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo3.png",
+		"oAP": "/deploy/img/Section 6/logo3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo4.png": {
+	"/deploy/img/Section 6/logo4.png": {
 		"ft": 32768,
 		"iS": 9048,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo4.png",
+		"oAP": "/deploy/img/Section 6/logo4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo5.png": {
+	"/deploy/img/Section 6/logo5.png": {
 		"ft": 32768,
 		"iS": 13198,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo5.png",
+		"oAP": "/deploy/img/Section 6/logo5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo6.png": {
+	"/deploy/img/Section 6/logo6.png": {
 		"ft": 32768,
 		"iS": 6695,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo6.png",
+		"oAP": "/deploy/img/Section 6/logo6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo7.png": {
+	"/deploy/img/Section 6/logo7.png": {
 		"ft": 32768,
 		"iS": 6343,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo7.png",
+		"oAP": "/deploy/img/Section 6/logo7.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo8.png": {
+	"/deploy/img/Section 6/logo8.png": {
 		"ft": 32768,
 		"iS": 4434,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo8.png",
+		"oAP": "/deploy/img/Section 6/logo8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo9 copy.png": {
+	"/deploy/img/Section 6/logo9 copy.png": {
 		"ft": 32768,
 		"iS": 4325,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo9 copy.png",
+		"oAP": "/deploy/img/Section 6/logo9 copy.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 7/logo9.png": {
+	"/deploy/img/Section 6/logo9.png": {
 		"ft": 32768,
 		"iS": 9000,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 7/logo9.png",
+		"oAP": "/deploy/img/Section 6/logo9.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -588,19 +598,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-7.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-7.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -660,14 +657,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-6.html",
-		"oF": 1
-		},
-	"/dev/section-7.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-7.html",
 		"oF": 1
 		},
 	"/README.md": {
