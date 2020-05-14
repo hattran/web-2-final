@@ -390,15 +390,65 @@ textarea {
 ============= */
 #section-1 {
   background-image: url("../img/section-1/hero.jpeg");
-  height: 40vh;
-  background-size: cover; }
+  height: 70vh;
+  background-size: cover;
+  background-position: top center; }
 
 /* =============
     Section 2
 ============= */
+#section-2 #section-2-grid #section-2-image-1 {
+  background-image: url("../img/section-2/leftoverview.jpeg");
+  height: 60vh;
+  width: 320px;
+  background-size: cover;
+  background-position: center; }
+
+#section-2 #section-2-grid #section-2-image-2 {
+  background-image: url("../img/section-2/toprightoverview.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-2 #section-2-grid #section-2-image-3 {
+  background-image: url("../img/section-2/bottomrightoverview.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-2 #section-2-video {
+  background-image: url("../img/section-2/videothumbnail.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
 /* =============
     Section 3
 ============= */
+#section-3 #festival-activities #activities-carousel #carousel-1 {
+  background-image: url("../img/section-3/activityleft.jpeg");
+  height: 50vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-3 #festival-activities #activities-carousel #carousel-2 {
+  background-image: url("../img/section-3/activity-center.jpeg");
+  height: 50vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-3 #festival-activities #activities-carousel #carousel-3 {
+  background-image: url("../img/section-3/activityright.jpeg");
+  height: 50vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-3 #festival-activities #wristband-carousel {
+  background-image: url("../img/section-3/wristbandactivity.jpeg");
+  height: 50vh;
+  width: 320px;
+  background-size: cover; }
+
 /* =============
     Section 4
 ============= */

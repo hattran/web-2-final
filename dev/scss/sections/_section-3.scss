@@ -1,3 +1,39 @@
 /* =============
     Section 3
 ============= */
+
+#section-3{
+
+    #festival-activities{
+
+        #activities-carousel{
+            #carousel-1{
+                background-image: url("../img/section-3/activityleft.jpeg");
+                height: 50vh;
+                width: 320px;
+                background-size: cover;
+            }
+
+            #carousel-2{
+            background-image: url("../img/section-3/activity-center.jpeg");
+            height: 50vh;
+            width: 320px;
+            background-size: cover;
+            }
+
+            #carousel-3{
+            background-image: url("../img/section-3/activityright.jpeg");
+            height: 50vh;
+            width: 320px;
+            background-size: cover;
+            }
+        }
+
+        #wristband-carousel{
+            background-image: url("../img/section-3/wristbandactivity.jpeg");
+            height: 50vh;
+            width: 320px;
+            background-size: cover;
+        }
+    }
+}

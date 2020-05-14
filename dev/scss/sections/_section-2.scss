@@ -1,3 +1,38 @@
 /* =============
     Section 2
 ============= */
+
+#section-2{
+
+    #section-2-grid{
+        
+        #section-2-image-1{
+            background-image: url("../img/section-2/leftoverview.jpeg");
+            height: 60vh;
+            width: 320px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #section-2-image-2{
+            background-image: url("../img/section-2/toprightoverview.jpeg");
+            height: 40vh;
+            width: 320px;
+            background-size: cover;
+        }
+
+        #section-2-image-3{
+            background-image: url("../img/section-2/bottomrightoverview.jpeg");
+            height: 40vh;
+            width: 320px;
+            background-size: cover;
+        }
+    }
+
+    #section-2-video{
+        background-image: url("../img/section-2/videothumbnail.jpeg");
+        height: 40vh;
+        width: 320px;
+        background-size: cover;
+    }
+}
