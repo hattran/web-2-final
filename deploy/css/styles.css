@@ -452,9 +452,116 @@ textarea {
 /* =============
     Section 4
 ============= */
+#section-4 #market {
+  background-image: url("../img/section-4/market.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #quetzal {
+  background-image: url("../img/section-4/quetzal.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #bohemian {
+  background-image: url("../img/section-4/bohemianpink.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #chestnut {
+  background-image: url("../img/section-4/chestnutgrill.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #kilian {
+  background-image: url("../img/section-4/kilian.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #bjorn {
+  background-image: url("../img/section-4/bjorn.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
+#section-4 #serendipity {
+  background-image: url("../img/section-4/serendipity.jpeg");
+  height: 40vh;
+  width: 320px;
+  background-size: cover; }
+
 /* =============
     Section 5
 ============= */
+#section-5 #section-5-map {
+  background-image: url("../img/section-5/map.jpeg");
+  height: 30vh;
+  width: 320px;
+  background-size: cover; }
+
 /* =============
     Section 6
 ============= */
+#section-6 #logo-1 {
+  background-image: url("../img/section-6/logo1.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-2 {
+  background-image: url("../img/section-6/logo2.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-3 {
+  background-image: url("../img/section-6/logo3.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-4 {
+  background-image: url("../img/section-6/logo4.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-5 {
+  background-image: url("../img/section-6/logo5.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-6 {
+  background-image: url("../img/section-6/logo6.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-7 {
+  background-image: url("../img/section-6/logo7.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-8 {
+  background-image: url("../img/section-6/logo8.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-9 {
+  background-image: url("../img/section-6/logo9.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
+
+#section-6 #logo-10 {
+  background-image: url("../img/section-6/logo10.png");
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
