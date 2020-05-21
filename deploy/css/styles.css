@@ -332,9 +332,34 @@ ul {
   @media (min-width: 992px) {
     .show-for-lg {
       display: block; } }
+.show-for-xl {
+  display: none; }
+  @media (min-width: 1200px) {
+    .show-for-xl {
+      display: block; } }
 /* =============
     Typography
 ============= */
+h2 {
+  font-family: ivymode, sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem; }
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 2.5rem; } }
+p {
+  font-family: masqualero, sans-serif;
+  font-weight: 300;
+  font-size: 1.1875rem;
+  line-height: 21px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.125rem;
+      line-height: 20px; } }
+  @media (min-width: 1200px) {
+    p {
+      font-size: 1.375rem;
+      line-height: 26px; } }
 /* =============
     Buttons
 ============= */
@@ -390,38 +415,121 @@ textarea {
 ============= */
 #section-1 {
   background-image: url("../img/section-1/hero.jpeg");
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
-  background-position: top center; }
-
+  background-position: 640px top; }
+  @media (min-width: 768px) {
+    #section-1 {
+      background-position: center; } }
 /* =============
     Section 2
 ============= */
-#section-2 #section-2-grid #section-2-image-1 {
-  background-image: url("../img/section-2/leftoverview.jpeg");
-  height: 60vh;
-  width: 320px;
-  background-size: cover;
-  background-position: center; }
-
-#section-2 #section-2-grid #section-2-image-2 {
-  background-image: url("../img/section-2/toprightoverview.jpeg");
-  height: 40vh;
-  width: 320px;
-  background-size: cover; }
-
-#section-2 #section-2-grid #section-2-image-3 {
-  background-image: url("../img/section-2/bottomrightoverview.jpeg");
-  height: 40vh;
-  width: 320px;
-  background-size: cover; }
-
-#section-2 #section-2-video {
-  background-image: url("../img/section-2/videothumbnail.jpeg");
-  height: 40vh;
-  width: 320px;
-  background-size: cover; }
-
+#section-2 {
+  background-color: #EBE5D7; }
+  #section-2 #section-2-grid {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2);
+    grid-template-areas: "text" "video"; }
+    @media (min-width: 768px) {
+      #section-2 #section-2-grid {
+        grid-template-columns: 60% auto;
+        grid-template-areas: "text text" "video image-3";
+        grid-gap: 20px; } }
+    @media (min-width: 992px) {
+      #section-2 #section-2-grid {
+        grid-template-columns: 60% auto;
+        grid-template-areas: "text image-2" "text image-3" "video video"; } }
+    @media (min-width: 1200px) {
+      #section-2 #section-2-grid {
+        grid-template-columns: 20% 40% auto auto;
+        grid-template-areas: "image-1 text image-2 image-2" "image-1 text image-3 image-3" "video video video video"; } }
+    #section-2 #section-2-grid article {
+      grid-area: text; }
+      #section-2 #section-2-grid article h2 {
+        color: #A75C1A;
+        text-align: center;
+        margin: 0 0;
+        padding: 30px 0 10px; }
+        @media (min-width: 768px) {
+          #section-2 #section-2-grid article h2 {
+            text-align: left;
+            margin: 0 0 0 80px;
+            padding: 40px 0 20px; } }
+        @media (min-width: 992px) {
+          #section-2 #section-2-grid article h2 {
+            margin: 0 0 0 100px;
+            padding: 50px 0 30px; } }
+        @media (min-width: 1200px) {
+          #section-2 #section-2-grid article h2 {
+            margin: 0 0 0 60px;
+            padding: 80px 0 30px; } }
+      #section-2 #section-2-grid article p {
+        padding: 0 30px;
+        text-align: justify;
+        color: #594022; }
+        @media (min-width: 768px) {
+          #section-2 #section-2-grid article p {
+            padding: 0 80px; } }
+        @media (min-width: 992px) {
+          #section-2 #section-2-grid article p {
+            padding: 0 30px 0 100px; } }
+        @media (min-width: 1200px) {
+          #section-2 #section-2-grid article p {
+            padding: 0 40px 0 60px; } }
+    #section-2 #section-2-grid #section-2-image-1 {
+      background-image: url("../img/section-2/leftoverview.jpeg");
+      height: 75vh;
+      background-size: cover;
+      background-position: center; }
+      @media (min-width: 1200px) {
+        #section-2 #section-2-grid #section-2-image-1 {
+          margin: 70px 0 0;
+          grid-area: image-1; } }
+    #section-2 #section-2-grid #section-2-image-2 {
+      background-image: url("../img/section-2/toprightoverview.jpeg");
+      height: 30vh;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        #section-2 #section-2-grid #section-2-image-2 {
+          margin: 50px 0 0;
+          grid-area: image-2; } }
+      @media (min-width: 1200px) {
+        #section-2 #section-2-grid #section-2-image-2 {
+          margin: 70px 0 0;
+          height: 35vh; } }
+    #section-2 #section-2-grid #section-2-image-3 {
+      background-image: url("../img/section-2/bottomrightoverview.jpeg");
+      height: 40vh;
+      background-size: cover; }
+      @media (min-width: 768px) {
+        #section-2 #section-2-grid #section-2-image-3 {
+          height: 30vh;
+          margin: 30px 0 0;
+          grid-area: image-3; } }
+      @media (min-width: 992px) {
+        #section-2 #section-2-grid #section-2-image-3 {
+          margin: 10px 0;
+          grid-area: image-3; } }
+      @media (min-width: 1200px) {
+        #section-2 #section-2-grid #section-2-image-3 {
+          height: 35vh; } }
+    #section-2 #section-2-grid #section-2-video {
+      background-image: url("../img/section-2/videothumbnail.jpeg");
+      height: 40vh;
+      background-size: cover;
+      margin: 30px 0 0;
+      grid-area: video; }
+      @media (min-width: 768px) {
+        #section-2 #section-2-grid #section-2-video {
+          height: 30vh; } }
+      @media (min-width: 992px) {
+        #section-2 #section-2-grid #section-2-video {
+          height: 50vh;
+          margin: 30px 200px 0 0; } }
+      @media (min-width: 1200px) {
+        #section-2 #section-2-grid #section-2-video {
+          margin: 30px 200px 0; } }
 /* =============
     Section 3
 ============= */

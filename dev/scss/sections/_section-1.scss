@@ -4,7 +4,11 @@
 
 #section-1{
     background-image: url("../img/section-1/hero.jpeg");
-    height: 70vh;
+    height: 60vh;
     background-size: cover;
-    background-position: top center;
+    background-position: 640px top;
+
+    @include md{
+        background-position: center;
+    }
 }

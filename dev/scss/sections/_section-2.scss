@@ -4,35 +4,152 @@
 
 #section-2{
 
+    background-color: $bg;
+
     #section-2-grid{
-        
+
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2);
+        grid-template-areas: "text"
+        "video";
+
+        @include md{
+            grid-template-columns: 60% auto;
+            grid-template-areas: "text text"
+            "video image-3";
+            grid-gap: 20px;
+        }
+
+        @include lg{
+            grid-template-columns: 60% auto;
+            grid-template-areas:
+            "text image-2"
+            "text image-3"
+            "video video";
+        }
+
+        @include xl{
+            grid-template-columns: 20% 40% auto auto;
+            grid-template-areas:
+            "image-1 text image-2 image-2"
+            "image-1 text image-3 image-3"
+            "video video video video";
+        }
+
+        article{
+            grid-area: text;
+
+            h2{
+                color: $dark-orange;
+                text-align: center;
+                margin: 0 0;
+                padding: 30px 0 10px;
+
+                @include md{
+                    text-align: left;
+                    margin: 0 0 0 80px;
+                    padding: 40px 0 20px;
+                }
+
+                @include lg{
+                    margin: 0 0 0 100px;
+                    padding: 50px 0 30px;
+                }
+
+                @include xl{
+                    margin: 0 0 0 60px;
+                    padding: 80px 0 30px;
+                }
+            }
+
+            p{
+                padding: 0 30px;
+                text-align: justify;
+                color: $brown;
+
+                @include md{
+                    padding: 0 80px;
+                }
+
+                @include lg{
+                    padding: 0 30px 0 100px;
+                }
+
+                @include xl{
+                    padding: 0 40px 0 60px;
+                }
+            }
+        }
+
         #section-2-image-1{
             background-image: url("../img/section-2/leftoverview.jpeg");
-            height: 60vh;
-            width: 320px;
+            height: 75vh;
             background-size: cover;
             background-position: center;
+
+            @include xl{
+                margin: 70px 0 0;
+                grid-area: image-1;
+            }
         }
 
         #section-2-image-2{
             background-image: url("../img/section-2/toprightoverview.jpeg");
-            height: 40vh;
-            width: 320px;
+            height: 30vh;
             background-size: cover;
+
+            @include lg{
+                margin: 50px 0 0;
+                grid-area: image-2;
+            }
+
+            @include xl{
+                margin: 70px 0 0;
+                height: 35vh;
+            }
         }
 
         #section-2-image-3{
             background-image: url("../img/section-2/bottomrightoverview.jpeg");
             height: 40vh;
-            width: 320px;
             background-size: cover;
-        }
-    }
 
-    #section-2-video{
-        background-image: url("../img/section-2/videothumbnail.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
+            @include md{
+                height: 30vh;
+                margin: 30px 0 0;
+                grid-area: image-3;
+            }
+
+            @include lg{
+                margin: 10px 0;
+                grid-area: image-3;
+            }
+
+            @include xl{
+                height: 35vh;
+            }
+        }
+
+        #section-2-video{
+            background-image: url("../img/section-2/videothumbnail.jpeg");
+            height: 40vh;
+            background-size: cover;
+            margin: 30px 0 0;
+            grid-area: video;
+
+            @include md{
+                height: 30vh;
+            }
+
+            @include lg{
+                height: 50vh;
+                margin: 30px 200px 0 0;
+            }
+
+            @include xl{
+                margin: 30px 200px 0;
+            }
+        }
     }
 }

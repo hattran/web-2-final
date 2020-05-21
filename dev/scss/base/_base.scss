@@ -23,3 +23,10 @@ ul{
         display: block;
     }
 }
+
+.show-for-xl{
+    display: none;
+    @include xl{
+        display: block;
+    }
+}
