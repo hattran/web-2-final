@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="8px" viewBox="0 0 97 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sequence copy</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-111.000000, -1555.000000)" fill="#FFFFFF">
+            <g id="activities" transform="translate(-1.000000, 1144.000000)">
+                <g id="sequence-copy" transform="translate(112.000000, 411.000000)">
+                    <circle id="Oval" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy" fill-opacity="0.6" cx="19" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-4" fill-opacity="0.6" cx="63" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-2" fill-opacity="0.6" cx="34" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-5" fill-opacity="0.6" cx="78" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-3" fill-opacity="0.6" cx="49" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-6" fill-opacity="0.6" cx="93" cy="4" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

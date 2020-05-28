@@ -4,36 +4,165 @@
 
 #section-3{
 
+    #diamond{
+        width: 50px;
+        height: 50px;
+        background: $brown;
+        transform: rotate(-45deg);
+        margin: -25px auto;
+
+        @include md{
+            width: 100px;
+            height: 100px;
+            margin: -50px 530px;
+        }
+    }
+
     #festival-activities{
 
+        background-color: $brown;
+        padding: 0 0 50px;
+
+        h2{
+            color: $light-green;
+            margin: 0 0;
+            padding: 50px 0 40px;
+            text-align: center;
+
+            @include md{
+                padding: 40px 0 40px 300px;
+                text-align: left;
+            }
+        }
+
         #activities-carousel{
+
+            @include md{
+                display: grid;
+                grid-template-columns: 10% auto 10%;
+                grid-template-areas: "carousel-1 carousel-2 carousel-3";
+                grid-gap: 20px;
+            }
+
             #carousel-1{
-                background-image: url("../img/section-3/activityleft.jpeg");
-                height: 50vh;
-                width: 320px;
-                background-size: cover;
+                
+                @include md{
+                    background-image: url("../img/section-3/activityleft.jpeg");
+                    height: 50vh;
+                    background-size: cover;
+                    grid-area: carousel-1;
+                    background-position: right;
+                }
             }
 
             #carousel-2{
-            background-image: url("../img/section-3/activity-center.jpeg");
-            height: 50vh;
-            width: 320px;
-            background-size: cover;
+                background-image: url("../img/section-3/activity-center.jpeg");
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+                grid-area: carousel-2;
+
+                img{
+                    display: block;
+                    padding-top: 45vh;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
 
             #carousel-3{
-            background-image: url("../img/section-3/activityright.jpeg");
-            height: 50vh;
-            width: 320px;
-            background-size: cover;
+
+                @include md{
+                    background-image: url("../img/section-3/activityright.jpeg");
+                    height: 50vh;
+                    background-size: cover;
+                    grid-area: carousel-3;
+                }
+            }
+        }
+
+        #activities-description{
+
+            background-color: $green;
+            padding: 50px 15px 30px;
+
+            @include md{
+                padding: 50px 80px 30px;
+            }
+
+            h4{
+                text-align: center;
+                font-family: masqualero, sans-serif;
+                font-weight: 700;
+                font-size: rem-calc(23);
+                margin: 0 0;
+                color: $dark-brown;
+
+                @include md{
+                    text-align: left;
+                }
+            }
+
+            #details{
+                text-align: center;
+                font-style: italic;
+                color: $dark-green;
+
+                @include md{
+                    display: none;
+                }
+            }
+        }
+
+        h3{
+            text-align: center;
+            font-family: masqualero, sans-serif;
+            font-weight: 400;
+            font-size: rem-calc(22);
+            line-height: 27px;
+            margin: 20px 0 0;
+            color: $green;
+
+            @include md{
+                font-size: rem-calc(24);
+                margin: 40px 0 0;
             }
         }
 
         #wristband-carousel{
             background-image: url("../img/section-3/wristbandactivity.jpeg");
-            height: 50vh;
-            width: 320px;
+            height: 35vh;
             background-size: cover;
+
+            @include md{
+                height: 50vh;
+                margin: 0 50px;
+                background-position: center;
+            }
+
+            h4{
+                text-align: center;
+                color: $white;
+                font-family: ivymode, sans-serif;
+                font-weight: 300;
+                font-size: rem-calc(18);
+                padding: 30px 0 0;
+
+                @include md{
+                    font-size: rem-calc(33);
+                }
+            }
+
+            img{
+                display: block;
+                padding-top: 22vh;
+                margin-left: auto;
+                margin-right: auto;
+
+                @include md{
+                    padding-top: 30vh;
+                }
+            }
         }
     }
 }

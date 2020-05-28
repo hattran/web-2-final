@@ -322,6 +322,11 @@ ul {
   ul li {
     list-style: none; }
 
+.show-for-sm {
+  display: none; }
+  @media (min-width: 576px) {
+    .show-for-sm {
+      display: block; } }
 .show-for-md {
   display: none; }
   @media (min-width: 768px) {
@@ -518,7 +523,7 @@ textarea {
       background-image: url("../img/section-2/videothumbnail.jpeg");
       height: 40vh;
       background-size: cover;
-      margin: 30px 0 0;
+      margin: 30px 0 50px;
       grid-area: video; }
       @media (min-width: 768px) {
         #section-2 #section-2-grid #section-2-video {
@@ -526,37 +531,139 @@ textarea {
       @media (min-width: 992px) {
         #section-2 #section-2-grid #section-2-video {
           height: 50vh;
-          margin: 30px 200px 0 0; } }
+          margin: 30px 200px 50px 0; } }
       @media (min-width: 1200px) {
         #section-2 #section-2-grid #section-2-video {
-          margin: 30px 200px 0; } }
+          margin: 30px 200px 50px; } }
+  #section-2 #diamond {
+    width: 50px;
+    height: 50px;
+    background: #EBE5D7;
+    transform: rotate(-45deg);
+    margin: -25px auto; }
+    @media (min-width: 768px) {
+      #section-2 #diamond {
+        width: 100px;
+        height: 100px;
+        margin: -50px 150px; } }
 /* =============
     Section 3
 ============= */
-#section-3 #festival-activities #activities-carousel #carousel-1 {
-  background-image: url("../img/section-3/activityleft.jpeg");
-  height: 50vh;
-  width: 320px;
-  background-size: cover; }
-
-#section-3 #festival-activities #activities-carousel #carousel-2 {
-  background-image: url("../img/section-3/activity-center.jpeg");
-  height: 50vh;
-  width: 320px;
-  background-size: cover; }
-
-#section-3 #festival-activities #activities-carousel #carousel-3 {
-  background-image: url("../img/section-3/activityright.jpeg");
-  height: 50vh;
-  width: 320px;
-  background-size: cover; }
-
-#section-3 #festival-activities #wristband-carousel {
-  background-image: url("../img/section-3/wristbandactivity.jpeg");
-  height: 50vh;
-  width: 320px;
-  background-size: cover; }
-
+#section-3 #diamond {
+  width: 50px;
+  height: 50px;
+  background: #594022;
+  transform: rotate(-45deg);
+  margin: -25px auto; }
+  @media (min-width: 768px) {
+    #section-3 #diamond {
+      width: 100px;
+      height: 100px;
+      margin: -50px 530px; } }
+#section-3 #festival-activities {
+  background-color: #594022;
+  padding: 0 0 50px; }
+  #section-3 #festival-activities h2 {
+    color: #D7DB7C;
+    margin: 0 0;
+    padding: 50px 0 40px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-3 #festival-activities h2 {
+        padding: 40px 0 40px 300px;
+        text-align: left; } }
+  @media (min-width: 768px) {
+    #section-3 #festival-activities #activities-carousel {
+      display: grid;
+      grid-template-columns: 10% auto 10%;
+      grid-template-areas: "carousel-1 carousel-2 carousel-3";
+      grid-gap: 20px; } }
+  @media (min-width: 768px) {
+    #section-3 #festival-activities #activities-carousel #carousel-1 {
+      background-image: url("../img/section-3/activityleft.jpeg");
+      height: 50vh;
+      background-size: cover;
+      grid-area: carousel-1;
+      background-position: right; } }
+  #section-3 #festival-activities #activities-carousel #carousel-2 {
+    background-image: url("../img/section-3/activity-center.jpeg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: carousel-2; }
+    #section-3 #festival-activities #activities-carousel #carousel-2 img {
+      display: block;
+      padding-top: 45vh;
+      margin-left: auto;
+      margin-right: auto; }
+  @media (min-width: 768px) {
+    #section-3 #festival-activities #activities-carousel #carousel-3 {
+      background-image: url("../img/section-3/activityright.jpeg");
+      height: 50vh;
+      background-size: cover;
+      grid-area: carousel-3; } }
+  #section-3 #festival-activities #activities-description {
+    background-color: #A3A654;
+    padding: 50px 15px 30px; }
+    @media (min-width: 768px) {
+      #section-3 #festival-activities #activities-description {
+        padding: 50px 80px 30px; } }
+    #section-3 #festival-activities #activities-description h4 {
+      text-align: center;
+      font-family: masqualero, sans-serif;
+      font-weight: 700;
+      font-size: 1.4375rem;
+      margin: 0 0;
+      color: #2F2314; }
+      @media (min-width: 768px) {
+        #section-3 #festival-activities #activities-description h4 {
+          text-align: left; } }
+    #section-3 #festival-activities #activities-description #details {
+      text-align: center;
+      font-style: italic;
+      color: #5E601F; }
+      @media (min-width: 768px) {
+        #section-3 #festival-activities #activities-description #details {
+          display: none; } }
+  #section-3 #festival-activities h3 {
+    text-align: center;
+    font-family: masqualero, sans-serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 27px;
+    margin: 20px 0 0;
+    color: #A3A654; }
+    @media (min-width: 768px) {
+      #section-3 #festival-activities h3 {
+        font-size: 1.5rem;
+        margin: 40px 0 0; } }
+  #section-3 #festival-activities #wristband-carousel {
+    background-image: url("../img/section-3/wristbandactivity.jpeg");
+    height: 35vh;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #section-3 #festival-activities #wristband-carousel {
+        height: 50vh;
+        margin: 0 50px;
+        background-position: center; } }
+    #section-3 #festival-activities #wristband-carousel h4 {
+      text-align: center;
+      color: #fff;
+      font-family: ivymode, sans-serif;
+      font-weight: 300;
+      font-size: 1.125rem;
+      padding: 30px 0 0; }
+      @media (min-width: 768px) {
+        #section-3 #festival-activities #wristband-carousel h4 {
+          font-size: 2.0625rem; } }
+    #section-3 #festival-activities #wristband-carousel img {
+      display: block;
+      padding-top: 22vh;
+      margin-left: auto;
+      margin-right: auto; }
+      @media (min-width: 768px) {
+        #section-3 #festival-activities #wristband-carousel img {
+          padding-top: 30vh; } }
 /* =============
     Section 4
 ============= */

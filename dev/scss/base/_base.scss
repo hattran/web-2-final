@@ -10,6 +10,13 @@ ul{
     }
 }
 
+.show-for-sm{
+    display: none;
+    @include sm{
+        display: block;
+    }
+}
+
 .show-for-md{
     display: none;
     @include md{

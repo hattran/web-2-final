@@ -135,7 +135,7 @@
             background-image: url("../img/section-2/videothumbnail.jpeg");
             height: 40vh;
             background-size: cover;
-            margin: 30px 0 0;
+            margin: 30px 0 50px;
             grid-area: video;
 
             @include md{
@@ -144,12 +144,26 @@
 
             @include lg{
                 height: 50vh;
-                margin: 30px 200px 0 0;
+                margin: 30px 200px 50px 0;
             }
 
             @include xl{
-                margin: 30px 200px 0;
+                margin: 30px 200px 50px;
             }
+        }
+    }
+
+    #diamond{
+        width: 50px;
+        height: 50px;
+        background: $bg;
+        transform: rotate(-45deg);
+        margin: -25px auto;
+
+        @include md{
+            width: 100px;
+            height: 100px;
+            margin: -50px 150px;
         }
     }
 }
