@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1396px" height="985px" viewBox="0 0 1396 985" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bottom diamonds</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-360.000000, -568.000000)">
+            <g id="bottom-diamonds" transform="translate(360.000000, 568.000000)">
+                <polygon id="bg-element-copy" fill="#D7DB7C" transform="translate(300.083045, 234.083045) rotate(-315.000000) translate(-300.083045, -234.083045) " points="135 69 465.043121 69.1229689 465.16609 399.16609 135.122969 399.043121"></polygon>
+                <polygon id="bg-element-copy-7" fill="#F3C889" transform="translate(975.750951, 667.601896) rotate(-315.000000) translate(-975.750951, -667.601896) " points="751.498355 443.349301 1199.8365 443.516345 1200.00355 891.854492 751.665399 891.687448"></polygon>
+                <polygon id="bg-element-copy-8" fill="#DFA470" transform="translate(1173.000000, 182.000000) rotate(-315.000000) translate(-1173.000000, -182.000000) " points="1088 97 1257.93668 97.0633158 1258 267 1088.06332 266.936684"></polygon>
+                <path d="M1020.00149,293.001491 L1020.11546,598.884542 L1325.99851,598.998509 L1325.88454,293.115458 L1020.00149,293.001491 Z" id="bg-element-copy-5" stroke="#A9865B" stroke-width="8" transform="translate(1173.000000, 446.000000) rotate(-315.000000) translate(-1173.000000, -446.000000) "></path>
+                <path d="M60.0014912,506.001491 L60.0986984,766.901302 L320.998509,766.998509 L320.901302,506.098698 L60.0014912,506.001491 Z" id="bg-element-copy-6" stroke="#A75C1A" stroke-width="8" transform="translate(190.500000, 636.500000) rotate(-315.000000) translate(-190.500000, -636.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

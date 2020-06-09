@@ -5,16 +5,16 @@
 #section-3{
 
     #diamond{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         background: $brown;
-        transform: rotate(-45deg);
-        margin: -25px auto;
+        clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
+        margin: -40px auto;
 
         @include md{
-            width: 100px;
-            height: 100px;
-            margin: -50px 530px;
+            width: 140px;
+            height: 140px;
+            margin: -70px 150px;
         }
     }
 
@@ -53,6 +53,10 @@
                     grid-area: carousel-1;
                     background-position: right;
                 }
+
+                @include lg{
+                    height: 60vh;
+                }
             }
 
             #carousel-2{
@@ -62,11 +66,19 @@
                 background-position: center;
                 grid-area: carousel-2;
 
+                @include lg{
+                    height: 60vh;
+                }
+
                 img{
                     display: block;
                     padding-top: 45vh;
                     margin-left: auto;
                     margin-right: auto;
+
+                    @include lg{
+                        padding-top: 55vh;
+                    }
                 }
             }
 
@@ -78,6 +90,10 @@
                     background-size: cover;
                     grid-area: carousel-3;
                 }
+
+                @include lg{
+                    height: 60vh;
+                }
             }
         }
 
@@ -88,6 +104,14 @@
 
             @include md{
                 padding: 50px 80px 30px;
+            }
+
+            @include lg{
+                padding: 50px 140px 30px;
+            }
+
+            @include lg{
+                padding: 50px 200px 30px;
             }
 
             h4{
@@ -114,53 +138,100 @@
             }
         }
 
-        h3{
-            text-align: center;
-            font-family: masqualero, sans-serif;
-            font-weight: 400;
-            font-size: rem-calc(22);
-            line-height: 27px;
-            margin: 20px 0 0;
-            color: $green;
+        #wristband{
 
-            @include md{
-                font-size: rem-calc(24);
-                margin: 40px 0 0;
-            }
-        }
-
-        #wristband-carousel{
-            background-image: url("../img/section-3/wristbandactivity.jpeg");
-            height: 35vh;
-            background-size: cover;
-
-            @include md{
-                height: 50vh;
-                margin: 0 50px;
-                background-position: center;
+            @include lg{
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-template-areas: "text gallery";
             }
 
-            h4{
+            @include xl{
+                grid-template-columns: 10% auto 50% 10%;
+                grid-template-areas: ". text gallery .";
+            }
+
+            h3{
                 text-align: center;
-                color: $white;
-                font-family: ivymode, sans-serif;
-                font-weight: 300;
-                font-size: rem-calc(18);
-                padding: 30px 0 0;
-
+                font-family: masqualero, sans-serif;
+                font-weight: 400;
+                font-size: rem-calc(22);
+                line-height: 27px;
+                margin: 20px 0 0;
+                color: $green;
+    
                 @include md{
-                    font-size: rem-calc(33);
+                    font-size: rem-calc(24);
+                    margin: 40px 0 0;
+                }
+    
+                @include lg{
+                    grid-area: text;
+                    text-align: right;
+                    font-size: rem-calc(40);
+                    line-height: 50px;
+                    margin: 100px 0 0;
+                }
+
+                @include xl{
+                    grid-area: text;
+                    text-align: right;
+                    font-size: rem-calc(60);
+                    line-height: 70px;
                 }
             }
-
-            img{
-                display: block;
-                padding-top: 22vh;
-                margin-left: auto;
-                margin-right: auto;
+            
+            #wristband-carousel{
+                background-image: url("../img/section-3/wristbandactivity.jpeg");
+                height: 35vh;
+                background-size: cover;
 
                 @include md{
-                    padding-top: 30vh;
+                    height: 50vh;
+                    margin: 0 50px;
+                    background-position: center;
+                }
+
+                @include lg{
+                    grid-area: gallery;
+                    margin: -20px 0 0 40px;
+                    width: 80vh;
+                    height: 60vh;
+                }
+
+                @include xl{
+                    grid-area: gallery;
+                    margin: -20px 0 0 40px;
+                    width: 80vh;
+                    height: 60vh;
+                }
+
+                h4{
+                    text-align: center;
+                    color: $white;
+                    font-family: ivymode, sans-serif;
+                    font-weight: 300;
+                    font-size: rem-calc(18);
+                    padding: 30px 0 0;
+
+                    @include md{
+                        font-size: rem-calc(33);
+                    }
+                }
+
+                img{
+                    display: block;
+                    padding-top: 22vh;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    @include md{
+                        padding-top: 30vh;
+                    }
+
+                    @include lg{
+                        padding-top: 35vh;
+                    }
                 }
             }
         }

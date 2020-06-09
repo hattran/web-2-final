@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1522px" height="1312px" viewBox="0 0 1522 1312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>diamonds</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-332.000000, -92.000000)">
+            <g id="diamonds" transform="translate(332.000000, 92.000000)">
+                <rect id="bg-element" fill="#F3C889" transform="translate(467.000000, 550.000000) rotate(-315.000000) translate(-467.000000, -550.000000) " x="211" y="294" width="512" height="512"></rect>
+                <rect id="bg-element-copy-4" stroke="#E4B219" stroke-width="4" transform="translate(363.000000, 949.000000) rotate(-315.000000) translate(-363.000000, -949.000000) " x="109" y="695" width="508" height="508"></rect>
+                <rect id="bg-element-copy" fill="#A3A654" transform="translate(1235.000000, 329.000000) rotate(-315.000000) translate(-1235.000000, -329.000000) " x="1093" y="187" width="284" height="284"></rect>
+                <rect id="bg-element-copy-3" stroke="#7D5E06" stroke-width="4" transform="translate(1321.000000, 484.000000) rotate(-315.000000) translate(-1321.000000, -484.000000) " x="1181" y="344" width="280" height="280"></rect>
+                <rect id="bg-element-copy-5" stroke="#A3A654" stroke-width="4" transform="translate(432.000000, 201.000000) rotate(-315.000000) translate(-432.000000, -201.000000) " x="292" y="61" width="280" height="280"></rect>
+                <rect id="bg-element-copy-2" fill="#5E601F" transform="translate(1052.000000, 1074.000000) rotate(-315.000000) translate(-1052.000000, -1074.000000) " x="910" y="932" width="284" height="284"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -3,53 +3,168 @@
 ============= */
 
 #section-4{
+
+    background-color: $bg;
+    padding: 0 0 50px;
+
+    @include md{
+        background-image: url("../img/section-4/bottom-diamonds-tablet.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     
-    #market{
-        background-image: url("../img/section-4/market.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
+    @include lg{
+        background-image: url("../img/section-4/bottom-diamonds.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 0 80px;
     }
 
-    #quetzal{
-        background-image: url("../img/section-4/quetzal.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
+    h2{
+        color: $rust;
+        margin: 0 0;
+        padding: 50px 0 20px;
+        text-align: center;
+
+        @include md{
+            padding: 40px 0 40px 300px;
+            text-align: left;
+        }
     }
 
-    #bohemian{
-        background-image: url("../img/section-4/bohemianpink.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
+    img{
+        display: flex;
+        margin: 20px auto 0;
+
+        @include md{
+            display: none;
+        }
     }
 
-    #chestnut{
-        background-image: url("../img/section-4/chestnutgrill.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
-    }
+    #section-4-grid{
 
-    #kilian{
-        background-image: url("../img/section-4/kilian.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
-    }
+        @include lg{
+            display: grid;
+            grid-template-columns: auto 800px auto;
+            grid-template-areas: ". grid .";
+        }
 
-    #bjorn{
-        background-image: url("../img/section-4/bjorn.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
-    }
+        #section-4-images{
 
-    #serendipity{
-        background-image: url("../img/section-4/serendipity.jpeg");
-        height: 40vh;
-        width: 320px;
-        background-size: cover;
+            @include lg{
+                grid-area: grid;
+            }
+
+            @include md{
+                margin: 30px;
+                display: grid;
+                grid-template-columns: 5(1fr);
+                grid-template-areas:
+                "shop-7 shop-1 . shop-2 ."
+                "shop-7 . . . ."
+                "shop-7 . shop-3 . shop-4"
+                "shop-7 . . . ."
+                "shop-7 shop-5 . shop-6 .";
+            }
+            
+            #market{
+                background-image: url("../img/section-4/market.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-1;
+                    margin: -40px;
+                }
+            }
+        
+            #quetzal{
+                background-image: url("../img/section-4/quetzal.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-2;
+                    margin: -40px;
+                }
+            }
+        
+            #bohemian{
+                background-image: url("../img/section-4/bohemianpink.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-3;
+                    margin: -40px; 
+                }
+            }
+        
+            #chestnut{
+                background-image: url("../img/section-4/chestnutgrill.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-4;
+                    margin: -40px;
+                }
+            }
+        
+            #kilian{
+                background-image: url("../img/section-4/kilian.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-5;
+                    margin: -40px;
+                }
+            }
+        
+            #bjorn{
+                background-image: url("../img/section-4/bjorn.jpeg");
+                height: 20vh;
+                width: 20vh;
+                background-size: cover;
+                background-color: $rust;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        
+                @include md{
+                    grid-area: shop-6;
+                    margin: -40px;
+                }
+            }
+        
+            #serendipity{
+                background-image: url("../img/section-4/serendipity.jpeg");
+                width: 40vh;
+                height: 40vh;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                background-size: cover;
+                background-position: center;
+                margin: 0 auto;
+        
+                @include md{
+                    margin: 0 -40px 0 0;
+                    grid-area: shop-7;
+                }
+            }
+        }
     }
 }

@@ -7,7 +7,7 @@
 		"uuidString": "87DF140C-7701-4FB9-A218-526042151529"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/deploy/css/styles.css": {
 		"aP": 1,
@@ -50,6 +50,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-2/bg-diamonds-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-2/bg-diamonds-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-2/bg-diamonds.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-2/bg-diamonds.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/section-2/bottomrightoverview.jpeg": {
 		"ft": 16384,
 		"iS": 60998,
@@ -60,6 +80,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/section-2/diamond-divider.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-2/diamond-divider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/section-2/leftoverview.jpeg": {
 		"ft": 16384,
@@ -169,6 +199,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/section-4/bottom-diamonds-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-4/bottom-diamonds-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-4/bottom-diamonds.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-4/bottom-diamonds.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-4/carousel-indicator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-4/carousel-indicator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/section-4/chestnutgrill.jpeg": {
 		"ft": 16384,
@@ -1216,6 +1276,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1628,6 +1692,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -1743,6 +1811,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -1887,6 +1959,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,

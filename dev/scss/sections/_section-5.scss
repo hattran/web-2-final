@@ -3,11 +3,59 @@
 ============= */
 
 #section-5{
+    
+    #diamond{
+        width: 80px;
+        height: 80px;
+        background: $bg;
+        clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
+        margin: -40px auto;
 
-    #section-5-map{
-        background-image: url("../img/section-5/map.jpeg");
-        height: 30vh;
-        width: 320px;
-        background-size: cover;
+        @include md{
+            width: 140px;
+            height: 140px;
+            margin: -70px 150px;
+        }
+    }
+
+    #section-5-grid{
+
+        background-color: $dark-green;
+        padding: 0 0 50px;
+
+        h2{
+            color: $light-green;
+            margin: 0 0;
+            padding: 50px 0 30px;
+            text-align: center;
+
+            @include md{
+                padding: 40px 0 40px 300px;
+                text-align: left;
+            }
+        }
+
+        #section-5-map{
+            background-image: url("../img/section-5/map.jpeg");
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #section-5-info{
+
+            margin: 0 20px;
+
+            h3{
+                font-family: masqualero, sans-serif;
+                font-weight: 600;
+                font-size: rem-calc(25);
+                color: $white;
+            }
+
+            p{
+                color: $light-green;
+            }
+        }
     }
 }

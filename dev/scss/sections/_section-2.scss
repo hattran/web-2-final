@@ -6,6 +6,18 @@
 
     background-color: $bg;
 
+    @include md{
+        background-image: url("../img/section-2/bg-diamonds-tablet.svg");
+        background-position: -500px -300px;
+        background-repeat: no-repeat;
+    }
+    
+    @include lg{
+        background-image: url("../img/section-2/bg-diamonds.svg");
+        background-position: center -300px;
+        background-repeat: no-repeat;
+    }
+
     #section-2-grid{
 
         display: grid;
@@ -154,16 +166,17 @@
     }
 
     #diamond{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         background: $bg;
-        transform: rotate(-45deg);
-        margin: -25px auto;
+        clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
+        // transform: rotate(-45deg);
+        margin: -39px auto;
 
         @include md{
-            width: 100px;
-            height: 100px;
-            margin: -50px 150px;
+            width: 140px;
+            height: 140px;
+            margin: -69px 150px;
         }
     }
 }

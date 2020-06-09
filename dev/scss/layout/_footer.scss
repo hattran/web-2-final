@@ -3,5 +3,60 @@
 ============= */
 
 #footer{
+    background-color: $dark-yellow;
+    margin: 50px 0 0;
+    padding: 30px 0 0;
 
+    // #diamond{
+    //     width: 80px;
+    //     height: 80px;
+    //     background: $white;
+    //     clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
+    //     margin: -40px auto 0;
+
+    //     @include md{
+    //         width: 140px;
+    //         height: 140px;
+    //         margin: -70px auto;
+    //     }
+    // }
+
+    #footer-grid{
+
+        #footer-contact{
+            font-size: rem-calc(15);
+            line-height: 19px;
+            color: $light-yellow;
+            text-align: center;
+            
+            span{
+                font-weight: 600;
+            }
+        }
+
+        ul{
+
+            li{
+                text-align: center;
+                font-size: rem-calc(40);
+                color: $light-yellow;
+            }
+        }
+
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+
+        h6{
+            font-family: masqualero, sans-serif;
+            font-weight: 300;
+            font-size: rem-calc(10);
+            line-height: 13px;
+            margin: 30px auto 0;
+            padding: 0 0 30px;
+            text-align: center;
+            color: $light-yellow;
+        }
+    }
 }
