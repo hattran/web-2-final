@@ -30,8 +30,12 @@ p{
 }
 
 .shop-name{
-    padding: 40px 20px;
+    padding: 8vh 20px;
     text-align: center;
+    vertical-align: center;
+    line-height: 17px;
     color: $white;
     font-size: rem-calc(16);
+    margin: 0 0;
+    font-weight: 500;
 }

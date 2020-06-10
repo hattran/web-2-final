@@ -189,9 +189,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-4/bjorn.jpg": {
+		"ft": 16384,
+		"iS": 54473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/bjorn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-4/bohemianpink.jpeg": {
 		"ft": 16384,
 		"iS": 50082,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/bohemianpink.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/bohemianpink.jpg": {
+		"ft": 16384,
+		"iS": 47041,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-4/bohemianpink.jpg",
@@ -241,9 +263,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-4/chestnutgrill.jpg": {
+		"ft": 16384,
+		"iS": 58573,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/chestnutgrill.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-4/kilian.jpeg": {
 		"ft": 16384,
 		"iS": 119335,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/kilian.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/kilian.jpg": {
+		"ft": 16384,
+		"iS": 95626,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-4/kilian.jpg",
@@ -263,9 +307,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-4/market.jpg": {
+		"ft": 16384,
+		"iS": 256276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/market.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-4/quetzal.jpeg": {
 		"ft": 16384,
 		"iS": 78008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/quetzal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/quetzal.jpg": {
+		"ft": 16384,
+		"iS": 68221,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-4/quetzal.jpg",

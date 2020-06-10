@@ -366,10 +366,14 @@ p {
       font-size: 1.375rem;
       line-height: 26px; } }
 .shop-name {
-  padding: 40px 20px;
+  padding: 8vh 20px;
   text-align: center;
+  vertical-align: center;
+  line-height: 17px;
   color: #fff;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin: 0 0;
+  font-weight: 500; }
 
 /* =============
     Buttons
@@ -816,7 +820,7 @@ textarea {
       grid-template-columns: 5 1fr;
       grid-template-areas: "shop-7 shop-1 . shop-2 ." "shop-7 . . . ." "shop-7 . shop-3 . shop-4" "shop-7 . . . ." "shop-7 shop-5 . shop-6 ."; } }
   #section-4 #section-4-grid #section-4-images #market {
-    background-image: url("../img/section-4/market.jpeg");
+    background-image: url("../img/section-4/market.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
@@ -827,7 +831,7 @@ textarea {
         grid-area: shop-1;
         margin: -40px; } }
   #section-4 #section-4-grid #section-4-images #quetzal {
-    background-image: url("../img/section-4/quetzal.jpeg");
+    background-image: url("../img/section-4/quetzal.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
@@ -838,7 +842,7 @@ textarea {
         grid-area: shop-2;
         margin: -40px; } }
   #section-4 #section-4-grid #section-4-images #bohemian {
-    background-image: url("../img/section-4/bohemianpink.jpeg");
+    background-image: url("../img/section-4/bohemianpink.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
@@ -849,7 +853,7 @@ textarea {
         grid-area: shop-3;
         margin: -40px; } }
   #section-4 #section-4-grid #section-4-images #chestnut {
-    background-image: url("../img/section-4/chestnutgrill.jpeg");
+    background-image: url("../img/section-4/chestnutgrill.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
@@ -860,7 +864,7 @@ textarea {
         grid-area: shop-4;
         margin: -40px; } }
   #section-4 #section-4-grid #section-4-images #kilian {
-    background-image: url("../img/section-4/kilian.jpeg");
+    background-image: url("../img/section-4/kilian.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
@@ -871,7 +875,7 @@ textarea {
         grid-area: shop-5;
         margin: -40px; } }
   #section-4 #section-4-grid #section-4-images #bjorn {
-    background-image: url("../img/section-4/bjorn.jpeg");
+    background-image: url("../img/section-4/bjorn.jpg");
     height: 20vh;
     width: 20vh;
     background-size: cover;
