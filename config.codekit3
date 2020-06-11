@@ -369,7 +369,7 @@
 		"oAP": "/deploy/img/section-5/map.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-6/logo1.png": {

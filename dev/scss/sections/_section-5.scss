@@ -23,6 +23,13 @@
         background-color: $dark-green;
         padding: 0 0 50px;
 
+        @include md{
+            display: grid;
+            grid-template-columns: 45% auto;
+            grid-template-areas: "map title"
+            "map info";
+        }
+
         h2{
             color: $light-green;
             margin: 0 0;
@@ -30,8 +37,10 @@
             text-align: center;
 
             @include md{
-                padding: 40px 0 40px 300px;
+                padding-left: 20px;
+                padding-bottom: 0;
                 text-align: left;
+                grid-area: title;
             }
         }
 
@@ -40,6 +49,12 @@
             height: 50vh;
             background-size: cover;
             background-position: center;
+
+            @include md{
+                grid-area: map;
+                margin: 50px 0;
+                height: 52vh;
+            }
         }
 
         #section-5-info{
@@ -55,6 +70,10 @@
 
             p{
                 color: $light-green;
+            }
+
+            @include md{
+                grid-area: info;
             }
         }
 

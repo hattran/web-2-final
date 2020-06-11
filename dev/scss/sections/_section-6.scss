@@ -32,6 +32,10 @@
                 padding: 40px 0 40px 100px;
                 text-align: left;
             }
+
+            @include xl{
+                padding: 40px 0 40px 400px;
+            }
         }
 
         #section-6-logos{

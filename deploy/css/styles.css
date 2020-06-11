@@ -963,6 +963,11 @@ textarea {
 #section-5 #section-5-grid {
   background-color: #5E601F;
   padding: 0 0 50px; }
+  @media (min-width: 768px) {
+    #section-5 #section-5-grid {
+      display: grid;
+      grid-template-columns: 45% auto;
+      grid-template-areas: "map title" "map info"; } }
   #section-5 #section-5-grid h2 {
     color: #D7DB7C;
     margin: 0 0;
@@ -970,13 +975,20 @@ textarea {
     text-align: center; }
     @media (min-width: 768px) {
       #section-5 #section-5-grid h2 {
-        padding: 40px 0 40px 300px;
-        text-align: left; } }
+        padding-left: 20px;
+        padding-bottom: 0;
+        text-align: left;
+        grid-area: title; } }
   #section-5 #section-5-grid #section-5-map {
     background-image: url("../img/section-5/map.jpeg");
     height: 50vh;
     background-size: cover;
     background-position: center; }
+    @media (min-width: 768px) {
+      #section-5 #section-5-grid #section-5-map {
+        grid-area: map;
+        margin: 50px 0;
+        height: 52vh; } }
   #section-5 #section-5-grid #section-5-info {
     margin: 0 20px; }
     #section-5 #section-5-grid #section-5-info h3 {
@@ -986,6 +998,9 @@ textarea {
       color: #fff; }
     #section-5 #section-5-grid #section-5-info p {
       color: #D7DB7C; }
+    @media (min-width: 768px) {
+      #section-5 #section-5-grid #section-5-info {
+        grid-area: info; } }
   #section-5 #section-5-grid #register-button {
     height: 20vh;
     width: 20vh;
@@ -1024,6 +1039,9 @@ textarea {
       #section-6 #section-6-grid h2 {
         padding: 40px 0 40px 100px;
         text-align: left; } }
+    @media (min-width: 1200px) {
+      #section-6 #section-6-grid h2 {
+        padding: 40px 0 40px 400px; } }
   #section-6 #section-6-grid #section-6-logos {
     display: grid;
     grid-template-columns: auto 100px 100px auto;
