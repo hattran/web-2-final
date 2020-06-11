@@ -2,41 +2,41 @@
     Section 5
 ============= */
 
-#section-5{
-    
-    #diamond{
+#section-5 {
+
+    #diamond {
         width: 80px;
         height: 80px;
         background: $bg;
         clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
         margin: -40px auto;
 
-        @include md{
+        @include md {
             width: 140px;
             height: 140px;
             margin: -70px 150px;
         }
     }
 
-    #section-5-grid{
+    #section-5-grid {
 
         background-color: $dark-green;
         padding: 0 0 50px;
 
-        @include md{
+        @include md {
             display: grid;
             grid-template-columns: 45% auto;
             grid-template-areas: "map title"
-            "map info";
+                "map info";
         }
 
-        h2{
+        h2 {
             color: $light-green;
             margin: 0 0;
             padding: 50px 0 30px;
             text-align: center;
 
-            @include md{
+            @include md {
                 padding-left: 20px;
                 padding-bottom: 0;
                 text-align: left;
@@ -44,46 +44,46 @@
             }
         }
 
-        #section-5-map{
+        #section-5-map {
             background-image: url("../img/section-5/map.jpeg");
             height: 50vh;
             background-size: cover;
             background-position: center;
 
-            @include md{
+            @include md {
                 grid-area: map;
                 margin: 50px 0;
                 height: 52vh;
             }
 
-            @include lg{
+            @include lg {
                 margin: 50px 0 0 50px;
             }
         }
 
-        #section-5-info{
+        #section-5-info {
 
             margin: 0 20px;
 
-            h3{
+            h3 {
                 font-family: masqualero, sans-serif;
                 font-weight: 600;
                 font-size: rem-calc(25);
                 color: $white;
             }
 
-            p{
+            p {
                 color: $light-green;
             }
 
-            @include md{
+            @include md {
                 grid-area: info;
             }
         }
 
-        #buttons{
+        #buttons {
 
-            @include md{
+            @include md {
                 display: grid;
                 grid-template-columns: 2(1fr);
                 grid-template-areas: "register pub-crawl";
@@ -91,33 +91,66 @@
                 gap: 20px;
             }
 
-            a{
+            a:link,
+            a:visited {
                 text-decoration: none;
-            }
 
-            #register-button{
-                height: 20vh;
-                width: 20vh;
-                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-                background: $yellow;
-                margin: 30px auto 0;
+                #register-button {
+                    height: 20vh;
+                    width: 20vh;
+                    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                    background: $yellow;
+                    margin: 30px auto 0;
+                    transition: 0.25s;
 
-                @include md{
-                    grid-area: register;
-                    margin: 0;
+                    @include md {
+                        grid-area: register;
+                        margin: 0;
+                    }
+                }
+
+                #pub-crawl-button {
+                    height: 20vh;
+                    width: 20vh;
+                    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                    background: $yellow;
+                    margin: 10px auto 0;
+                    transition: 0.25s;
+
+                    @include md {
+                        grid-area: pub-crawl;
+                        margin: 0;
+                    }
                 }
             }
-    
-            #pub-crawl-button{
-                height: 20vh;
-                width: 20vh;
-                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-                background: $yellow;
-                margin: 10px auto 0;
 
-                @include md{
-                    grid-area: pub-crawl;
-                    margin: 0;
+            a:hover,
+            a:active {
+
+                #register-button {
+                    height: 20vh;
+                    width: 20vh;
+                    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                    background: $dark-rust;
+                    margin: 30px auto 0;
+
+                    @include md {
+                        grid-area: register;
+                        margin: 0;
+                    }
+                }
+
+                #pub-crawl-button {
+                    height: 20vh;
+                    width: 20vh;
+                    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                    background: $dark-rust;
+                    margin: 10px auto 0;
+
+                    @include md {
+                        grid-area: pub-crawl;
+                        margin: 0;
+                    }
                 }
             }
         }

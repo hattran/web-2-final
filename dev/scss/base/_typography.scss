@@ -2,34 +2,34 @@
     Typography
 ============= */
 
-h2{
+h2 {
     font-family: ivymode, sans-serif;
     font-weight: 600;
     font-size: rem-calc(30);
 
-    @include md{
+    @include md {
         font-size: rem-calc(40);
     }
 }
 
-p{
+p {
     font-family: masqualero, sans-serif;
     font-weight: 300;
     font-size: rem-calc(19);
     line-height: 21px;
 
-    @include md{
+    @include md {
         font-size: rem-calc(18);
         line-height: 20px;
     }
 
-    @include xl{
+    @include xl {
         font-size: rem-calc(22);
         line-height: 26px;
     }
 }
 
-.shop-name{
+.shop-name {
     padding: 8vh 20px;
     text-align: center;
     vertical-align: center;
@@ -40,7 +40,7 @@ p{
     font-weight: 500;
 }
 
-.mobile-button{
+.mobile-button {
     padding: 8vh 20px;
     text-align: center;
     vertical-align: center;
@@ -51,7 +51,7 @@ p{
     font-family: ivymode, sans-serif;
     font-weight: 600;
 
-    @include lg{
+    @include lg {
         font-size: rem-calc(18);
     }
 }

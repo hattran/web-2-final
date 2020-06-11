@@ -2,178 +2,177 @@
     Section 2
 ============= */
 
-#section-2{
+#section-2 {
 
     background-color: $bg;
 
-    @include md{
+    @include md {
         background-image: url("../img/section-2/bg-diamonds-tablet.svg");
         background-position: -500px -300px;
         background-repeat: no-repeat;
     }
-    
-    @include lg{
+
+    @include lg {
         background-image: url("../img/section-2/bg-diamonds.svg");
         background-position: center -300px;
         background-repeat: no-repeat;
     }
 
-    #section-2-grid{
+    #section-2-grid {
 
         display: grid;
         grid-template-columns: none;
         grid-template-rows: repeat(2);
         grid-template-areas: "text"
-        "video";
+            "video";
 
-        @include md{
+        @include md {
             grid-template-columns: 60% auto;
             grid-template-areas: "text text"
-            "video image-3";
+                "video image-3";
             grid-gap: 20px;
         }
 
-        @include lg{
+        @include lg {
             grid-template-columns: 60% auto;
             grid-template-areas:
-            "text image-2"
-            "text image-3"
-            "video video";
+                "text image-2"
+                "text image-3"
+                "video video";
         }
 
-        @include xl{
+        @include xl {
             grid-template-columns: 20% 40% auto auto;
             grid-template-areas:
-            "image-1 text image-2 image-2"
-            "image-1 text image-3 image-3"
-            "video video video video";
+                "image-1 text image-2 image-2"
+                "image-1 text image-3 image-3"
+                "video video video video";
         }
 
-        article{
+        article {
             grid-area: text;
 
-            h2{
+            h2 {
                 color: $dark-orange;
                 text-align: center;
                 margin: 0 0;
                 padding: 30px 0 10px;
 
-                @include md{
+                @include md {
                     text-align: left;
                     margin: 0 0 0 80px;
                     padding: 40px 0 20px;
                 }
 
-                @include lg{
+                @include lg {
                     margin: 0 0 0 100px;
                     padding: 50px 0 30px;
                 }
 
-                @include xl{
+                @include xl {
                     margin: 0 0 0 60px;
                     padding: 80px 0 30px;
                 }
             }
 
-            p{
+            p {
                 padding: 0 30px;
                 text-align: justify;
                 color: $brown;
 
-                @include md{
+                @include md {
                     padding: 0 80px;
                 }
 
-                @include lg{
+                @include lg {
                     padding: 0 30px 0 100px;
                 }
 
-                @include xl{
+                @include xl {
                     padding: 0 40px 0 60px;
                 }
             }
         }
 
-        #section-2-image-1{
+        #section-2-image-1 {
             background-image: url("../img/section-2/leftoverview.jpeg");
             height: 75vh;
             background-size: cover;
             background-position: center;
 
-            @include xl{
+            @include xl {
                 margin: 70px 0 0;
                 grid-area: image-1;
             }
         }
 
-        #section-2-image-2{
+        #section-2-image-2 {
             background-image: url("../img/section-2/toprightoverview.jpeg");
             height: 30vh;
             background-size: cover;
 
-            @include lg{
+            @include lg {
                 margin: 50px 0 0;
                 grid-area: image-2;
             }
 
-            @include xl{
+            @include xl {
                 margin: 70px 0 0;
                 height: 35vh;
             }
         }
 
-        #section-2-image-3{
+        #section-2-image-3 {
             background-image: url("../img/section-2/bottomrightoverview.jpeg");
             height: 40vh;
             background-size: cover;
 
-            @include md{
+            @include md {
                 height: 30vh;
                 margin: 30px 0 0;
                 grid-area: image-3;
             }
 
-            @include lg{
+            @include lg {
                 margin: 10px 0;
                 grid-area: image-3;
             }
 
-            @include xl{
+            @include xl {
                 height: 35vh;
             }
         }
 
-        #section-2-video{
+        #section-2-video {
             background-image: url("../img/section-2/videothumbnail.jpeg");
             height: 40vh;
             background-size: cover;
             margin: 30px 0 50px;
             grid-area: video;
 
-            @include md{
+            @include md {
                 height: 30vh;
             }
 
-            @include lg{
+            @include lg {
                 height: 50vh;
                 margin: 30px 200px 50px 0;
             }
 
-            @include xl{
+            @include xl {
                 margin: 30px 200px 50px;
             }
         }
     }
 
-    #diamond{
+    #diamond {
         width: 80px;
         height: 80px;
         background: $bg;
         clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
-        // transform: rotate(-45deg);
         margin: -39px auto;
 
-        @include md{
+        @include md {
             width: 140px;
             height: 140px;
             margin: -69px 150px;

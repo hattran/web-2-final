@@ -2,51 +2,51 @@
     Section 3
 ============= */
 
-#section-3{
+#section-3 {
 
-    #diamond{
+    #diamond {
         width: 80px;
         height: 80px;
         background: $brown;
         clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
         margin: -40px auto;
 
-        @include md{
+        @include md {
             width: 140px;
             height: 140px;
             margin: -70px 150px;
         }
     }
 
-    #festival-activities{
+    #festival-activities {
 
         background-color: $brown;
         padding: 0 0 50px;
 
-        h2{
+        h2 {
             color: $light-green;
             margin: 0 0;
             padding: 50px 0 40px;
             text-align: center;
 
-            @include md{
+            @include md {
                 padding: 40px 0 40px 300px;
                 text-align: left;
             }
         }
 
-        #activities-carousel{
+        #activities-carousel {
 
-            @include md{
+            @include md {
                 display: grid;
                 grid-template-columns: 10% auto 10%;
                 grid-template-areas: "carousel-1 carousel-2 carousel-3";
                 grid-gap: 20px;
             }
 
-            #carousel-1{
-                
-                @include md{
+            #carousel-1 {
+
+                @include md {
                     background-image: url("../img/section-3/activityleft.jpeg");
                     height: 50vh;
                     background-size: cover;
@@ -54,67 +54,67 @@
                     background-position: right;
                 }
 
-                @include lg{
+                @include lg {
                     height: 60vh;
                 }
             }
 
-            #carousel-2{
+            #carousel-2 {
                 background-image: url("../img/section-3/activity-center.jpeg");
                 height: 50vh;
                 background-size: cover;
                 background-position: center;
                 grid-area: carousel-2;
 
-                @include lg{
+                @include lg {
                     height: 60vh;
                 }
 
-                img{
+                img {
                     display: block;
                     padding-top: 45vh;
                     margin-left: auto;
                     margin-right: auto;
 
-                    @include lg{
+                    @include lg {
                         padding-top: 55vh;
                     }
                 }
             }
 
-            #carousel-3{
+            #carousel-3 {
 
-                @include md{
+                @include md {
                     background-image: url("../img/section-3/activityright.jpeg");
                     height: 50vh;
                     background-size: cover;
                     grid-area: carousel-3;
                 }
 
-                @include lg{
+                @include lg {
                     height: 60vh;
                 }
             }
         }
 
-        #activities-description{
+        #activities-description {
 
             background-color: $green;
             padding: 50px 15px 30px;
 
-            @include md{
+            @include md {
                 padding: 50px 80px 30px;
             }
 
-            @include lg{
+            @include lg {
                 padding: 50px 140px 30px;
             }
 
-            @include lg{
+            @include lg {
                 padding: 50px 200px 30px;
             }
 
-            h4{
+            h4 {
                 text-align: center;
                 font-family: masqualero, sans-serif;
                 font-weight: 700;
@@ -122,36 +122,36 @@
                 margin: 0 0;
                 color: $dark-brown;
 
-                @include md{
+                @include md {
                     text-align: left;
                 }
             }
 
-            #details{
+            #details {
                 text-align: center;
                 font-style: italic;
                 color: $dark-green;
 
-                @include md{
+                @include md {
                     display: none;
                 }
             }
         }
 
-        #wristband{
+        #wristband {
 
-            @include lg{
+            @include lg {
                 display: grid;
                 grid-template-columns: 30% 70%;
                 grid-template-areas: "text gallery";
             }
 
-            @include xl{
+            @include xl {
                 grid-template-columns: 10% auto 50% 10%;
                 grid-template-areas: ". text gallery .";
             }
 
-            h3{
+            h3 {
                 text-align: center;
                 font-family: masqualero, sans-serif;
                 font-weight: 400;
@@ -159,13 +159,13 @@
                 line-height: 27px;
                 margin: 20px 0 0;
                 color: $green;
-    
-                @include md{
+
+                @include md {
                     font-size: rem-calc(24);
                     margin: 40px 0 0;
                 }
-    
-                @include lg{
+
+                @include lg {
                     grid-area: text;
                     text-align: right;
                     font-size: rem-calc(40);
@@ -173,40 +173,40 @@
                     margin: 100px 0 0;
                 }
 
-                @include xl{
+                @include xl {
                     grid-area: text;
                     text-align: right;
                     font-size: rem-calc(60);
                     line-height: 70px;
                 }
             }
-            
-            #wristband-carousel{
+
+            #wristband-carousel {
                 background-image: url("../img/section-3/wristbandactivity.jpeg");
                 height: 35vh;
                 background-size: cover;
 
-                @include md{
+                @include md {
                     height: 50vh;
                     margin: 0 50px;
                     background-position: center;
                 }
 
-                @include lg{
+                @include lg {
                     grid-area: gallery;
                     margin: -20px 0 0 40px;
                     width: 80vh;
                     height: 60vh;
                 }
 
-                @include xl{
+                @include xl {
                     grid-area: gallery;
                     margin: -20px 0 0 40px;
                     width: 80vh;
                     height: 60vh;
                 }
 
-                h4{
+                h4 {
                     text-align: center;
                     color: $white;
                     font-family: ivymode, sans-serif;
@@ -214,22 +214,22 @@
                     font-size: rem-calc(18);
                     padding: 30px 0 0;
 
-                    @include md{
+                    @include md {
                         font-size: rem-calc(33);
                     }
                 }
 
-                img{
+                img {
                     display: block;
                     padding-top: 22vh;
                     margin-left: auto;
                     margin-right: auto;
 
-                    @include md{
+                    @include md {
                         padding-top: 30vh;
                     }
 
-                    @include lg{
+                    @include lg {
                         padding-top: 35vh;
                     }
                 }

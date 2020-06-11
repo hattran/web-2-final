@@ -391,6 +391,16 @@ p {
 /* =============
     Buttons
 ============= */
+.section-5-buttons a:link,
+.section-5-buttons a:visited {
+  background: #C09006;
+  text-decoration: none;
+  transition: 0.25s; }
+
+.section-5-buttons a:hover,
+.section-5-buttons a:active {
+  background: #5D2B00; }
+
 /* =============
     Forms
 ============= */
@@ -440,7 +450,8 @@ header {
   left: 0;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 999; }
   @media (min-width: 992px) {
     header {
       background-color: #2F2314; } }
@@ -476,11 +487,12 @@ header {
       header > div #burger-container i {
         cursor: pointer; }
     header > div #nav-container {
-      background-color: transparent;
+      background-color: #A9865B;
       display: none;
       grid-area: nav;
       padding: 20px;
-      margin: -50px 0; }
+      margin: -50px 0;
+      z-index: -1; }
       @media (min-width: 992px) {
         header > div #nav-container {
           background-color: #2F2314;
@@ -530,10 +542,12 @@ header {
           display: inline-flex;
           padding: 0 5px;
           font-size: 1.875rem; } }
-      #footer #footer-grid ul li a:link, #footer #footer-grid ul li a:visited {
+      #footer #footer-grid ul li a:link,
+      #footer #footer-grid ul li a:visited {
         color: #F8DA83;
         transition: 0.25s; }
-      #footer #footer-grid ul li a:hover, #footer #footer-grid ul li a:active {
+      #footer #footer-grid ul li a:hover,
+      #footer #footer-grid ul li a:active {
         color: #2F2314; }
     #footer #footer-grid #logo {
       display: block;
@@ -1068,26 +1082,57 @@ header {
       grid-template-areas: "register pub-crawl";
       margin: 0 100%;
       gap: 20px; } }
-  #section-5 #section-5-grid #buttons a {
+  #section-5 #section-5-grid #buttons a:link,
+  #section-5 #section-5-grid #buttons a:visited {
     text-decoration: none; }
-  #section-5 #section-5-grid #buttons #register-button {
+    #section-5 #section-5-grid #buttons a:link #register-button,
+    #section-5 #section-5-grid #buttons a:visited #register-button {
+      height: 20vh;
+      width: 20vh;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      background: #C09006;
+      margin: 30px auto 0;
+      transition: 0.25s; }
+      @media (min-width: 768px) {
+        #section-5 #section-5-grid #buttons a:link #register-button,
+        #section-5 #section-5-grid #buttons a:visited #register-button {
+          grid-area: register;
+          margin: 0; } }
+    #section-5 #section-5-grid #buttons a:link #pub-crawl-button,
+    #section-5 #section-5-grid #buttons a:visited #pub-crawl-button {
+      height: 20vh;
+      width: 20vh;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      background: #C09006;
+      margin: 10px auto 0;
+      transition: 0.25s; }
+      @media (min-width: 768px) {
+        #section-5 #section-5-grid #buttons a:link #pub-crawl-button,
+        #section-5 #section-5-grid #buttons a:visited #pub-crawl-button {
+          grid-area: pub-crawl;
+          margin: 0; } }
+  #section-5 #section-5-grid #buttons a:hover #register-button,
+  #section-5 #section-5-grid #buttons a:active #register-button {
     height: 20vh;
     width: 20vh;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    background: #C09006;
+    background: #5D2B00;
     margin: 30px auto 0; }
     @media (min-width: 768px) {
-      #section-5 #section-5-grid #buttons #register-button {
+      #section-5 #section-5-grid #buttons a:hover #register-button,
+      #section-5 #section-5-grid #buttons a:active #register-button {
         grid-area: register;
         margin: 0; } }
-  #section-5 #section-5-grid #buttons #pub-crawl-button {
+  #section-5 #section-5-grid #buttons a:hover #pub-crawl-button,
+  #section-5 #section-5-grid #buttons a:active #pub-crawl-button {
     height: 20vh;
     width: 20vh;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    background: #C09006;
+    background: #5D2B00;
     margin: 10px auto 0; }
     @media (min-width: 768px) {
-      #section-5 #section-5-grid #buttons #pub-crawl-button {
+      #section-5 #section-5-grid #buttons a:hover #pub-crawl-button,
+      #section-5 #section-5-grid #buttons a:active #pub-crawl-button {
         grid-area: pub-crawl;
         margin: 0; } }
 /* =============

@@ -1,3 +1,18 @@
 /* =============
     Buttons
 ============= */
+
+.section-5-buttons{
+
+    a:link,
+    a:visited {
+        background: $yellow;
+        text-decoration: none;
+        transition: 0.25s;
+    }
+
+    a:hover,
+    a:active {
+        background: $dark-rust;
+    }
+}

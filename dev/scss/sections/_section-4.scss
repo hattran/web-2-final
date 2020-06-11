@@ -2,156 +2,156 @@
     Section 4
 ============= */
 
-#section-4{
+#section-4 {
 
     background-color: $bg;
     padding: 0 0 50px;
 
-    @include md{
+    @include md {
         background-image: url("../img/section-4/bottom-diamonds-tablet.svg");
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    @include lg{
+
+    @include lg {
         background-image: url("../img/section-4/bottom-diamonds.svg");
         background-position: center;
         background-repeat: no-repeat;
         padding: 0 0 80px;
     }
 
-    h2{
+    h2 {
         color: $rust;
         margin: 0 0;
         padding: 50px 0 20px;
         text-align: center;
 
-        @include md{
+        @include md {
             padding: 40px 0 40px 300px;
             text-align: left;
         }
     }
 
-    img{
+    img {
         display: flex;
         margin: 20px auto 0;
 
-        @include md{
+        @include md {
             display: none;
         }
     }
 
-    #section-4-grid{
+    #section-4-grid {
 
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-columns: auto 800px auto;
             grid-template-areas: ". grid .";
         }
 
-        #section-4-images{
+        #section-4-images {
 
-            @include lg{
+            @include lg {
                 grid-area: grid;
             }
 
-            @include md{
+            @include md {
                 margin: 30px;
                 display: grid;
                 grid-template-columns: 5(1fr);
                 grid-template-areas:
-                "shop-7 shop-1 . shop-2 ."
-                "shop-7 . . . ."
-                "shop-7 . shop-3 . shop-4"
-                "shop-7 . . . ."
-                "shop-7 shop-5 . shop-6 .";
+                    "shop-7 shop-1 . shop-2 ."
+                    "shop-7 . . . ."
+                    "shop-7 . shop-3 . shop-4"
+                    "shop-7 . . . ."
+                    "shop-7 shop-5 . shop-6 .";
             }
-            
-            #market{
+
+            #market {
                 background-image: url("../img/section-4/market.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-1;
                     margin: -40px;
                 }
             }
-        
-            #quetzal{
+
+            #quetzal {
                 background-image: url("../img/section-4/quetzal.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-2;
                     margin: -40px;
                 }
             }
-        
-            #bohemian{
+
+            #bohemian {
                 background-image: url("../img/section-4/bohemianpink.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-3;
-                    margin: -40px; 
+                    margin: -40px;
                 }
             }
-        
-            #chestnut{
+
+            #chestnut {
                 background-image: url("../img/section-4/chestnutgrill.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-4;
                     margin: -40px;
                 }
             }
-        
-            #kilian{
+
+            #kilian {
                 background-image: url("../img/section-4/kilian.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-5;
                     margin: -40px;
                 }
             }
-        
-            #bjorn{
+
+            #bjorn {
                 background-image: url("../img/section-4/bjorn.jpg");
                 height: 20vh;
                 width: 20vh;
                 background-size: cover;
                 background-color: $rust;
                 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        
-                @include md{
+
+                @include md {
                     grid-area: shop-6;
                     margin: -40px;
                 }
             }
-        
-            #serendipity{
+
+            #serendipity {
                 background-image: url("../img/section-4/serendipity.jpeg");
                 width: 40vh;
                 height: 40vh;
@@ -159,8 +159,8 @@
                 background-size: cover;
                 background-position: center;
                 margin: 0 auto;
-        
-                @include md{
+
+                @include md {
                     margin: 0 -40px 0 0;
                     grid-area: shop-7;
                 }

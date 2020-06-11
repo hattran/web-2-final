@@ -7,8 +7,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 
-    @include lg{
+    @include lg {
         background-color: $dark-brown;
     }
 
@@ -26,16 +27,16 @@ header {
         #logo-container {
             grid-area: logo;
 
-            #header-logo{
+            #header-logo {
                 height: 12vh;
-                
-                @include lg{
+
+                @include lg {
                     height: 15vh;
                     margin: 0 50px;
                 }
             }
 
-            @include lg{
+            @include lg {
                 height: 8vh;
                 margin: 0;
             }
@@ -58,11 +59,12 @@ header {
         }
 
         #nav-container {
-            background-color: transparent;
+            background-color: $light-brown;
             display: none;
             grid-area: nav;
             padding: 20px;
             margin: -50px 0;
+            z-index: -1;
 
             @include lg {
                 background-color: $dark-brown;

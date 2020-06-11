@@ -2,86 +2,88 @@
     Footer
 ============= */
 
-#footer{
+#footer {
     background-color: $dark-yellow;
     padding: 10px 0 0;
 
-    @include lg{
+    @include lg {
         display: grid;
         grid-template-columns: auto 800px auto;
         grid-template-areas: ". footer .";
     }
 
-    #footer-grid{
+    #footer-grid {
 
         grid-area: footer;
 
-        @include md{
+        @include md {
             display: grid;
             grid-template-columns: 3(1fr);
             grid-template-areas:
-            "contact logo legal"
-            "social-media logo up";
+                "contact logo legal"
+                "social-media logo up";
 
             padding: 50px 40px;
         }
 
-        #footer-contact{
+        #footer-contact {
             font-size: rem-calc(15);
             line-height: 19px;
             color: $light-yellow;
             text-align: center;
-            
-            span{
+
+            span {
                 font-weight: 600;
             }
 
-            @include md{
+            @include md {
                 grid-area: contact;
                 text-align: left;
             }
         }
 
-        ul{
-            
-            @include md{
+        ul {
+
+            @include md {
                 grid-area: social-media;
                 display: inline-flex;
                 margin-left: -5px;
             }
 
-            li{
+            li {
                 text-align: center;
                 font-size: rem-calc(40);
 
-                @include md{
+                @include md {
                     display: inline-flex;
                     padding: 0 5px;
                     font-size: rem-calc(30);
                 }
 
-                a:link, a:visited{
+                a:link,
+                a:visited {
                     color: $light-yellow;
                     transition: 0.25s;
                 }
 
-                a:hover, a:active{
+                a:hover,
+                a:active {
                     color: $dark-brown;
                 }
             }
         }
 
-        #logo{
+        #logo {
             display: block;
             margin: 0 auto;
-            
-            @include md{
+
+            @include md {
                 grid-area: logo;
                 margin-top: 20px;
             }
         }
 
-        h6{
+        h6 {
             font-family: masqualero, sans-serif;
             font-weight: 300;
             font-size: rem-calc(10);
@@ -91,21 +93,21 @@
             text-align: center;
             color: $light-yellow;
 
-            @include md{
+            @include md {
                 grid-area: legal;
                 text-align: right;
             }
         }
 
-        #back-to-top{
+        #back-to-top {
 
-            @include md{
+            @include md {
                 grid-area: up;
                 position: relative;
                 left: 130px;
             }
 
-            @include lg{
+            @include lg {
                 left: 160px;
             }
         }
