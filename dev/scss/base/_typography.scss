@@ -39,3 +39,15 @@ p{
     margin: 0 0;
     font-weight: 500;
 }
+
+.mobile-button{
+    padding: 8vh 20px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 18px;
+    color: $white;
+    font-size: rem-calc(16);
+    margin: 0 0;
+    font-family: ivymode, sans-serif;
+    font-weight: 600;
+}

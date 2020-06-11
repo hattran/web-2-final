@@ -57,5 +57,21 @@
                 color: $light-green;
             }
         }
+
+        #register-button{
+            height: 20vh;
+            width: 20vh;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            background: $yellow;
+            margin: 30px auto 0;
+        }
+
+        #pub-crawl-button{
+            height: 20vh;
+            width: 20vh;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            background: $yellow;
+            margin: 10px auto 0;
+        }
     }
 }

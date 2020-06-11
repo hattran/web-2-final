@@ -8,15 +8,11 @@
     background-size: cover;
     background-position: 640px top;
 
-    article{
-        width: 100px;
-        height: 100px;
-        background: $yellow;
-        transform: rotate(-45deg);
-        margin: -50px auto;
-    }
-
     @include md{
         background-position: center;
+    }
+
+    @include lg{
+        height: 80vh;
     }
 }

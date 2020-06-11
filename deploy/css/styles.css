@@ -375,6 +375,17 @@ p {
   margin: 0 0;
   font-weight: 500; }
 
+.mobile-button {
+  padding: 8vh 20px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 18px;
+  color: #fff;
+  font-size: 1rem;
+  margin: 0 0;
+  font-family: ivymode, sans-serif;
+  font-weight: 600; }
+
 /* =============
     Buttons
 ============= */
@@ -427,32 +438,73 @@ textarea {
 ============= */
 #footer {
   background-color: #7D5E06;
-  margin: 50px 0 0;
-  padding: 30px 0 0; }
-  #footer #footer-grid #footer-contact {
-    font-size: 0.9375rem;
-    line-height: 19px;
-    color: #F8DA83;
-    text-align: center; }
-    #footer #footer-grid #footer-contact span {
-      font-weight: 600; }
-  #footer #footer-grid ul li {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #F8DA83; }
-  #footer #footer-grid img {
-    display: block;
-    margin: 0 auto; }
-  #footer #footer-grid h6 {
-    font-family: masqualero, sans-serif;
-    font-weight: 300;
-    font-size: 0.625rem;
-    line-height: 13px;
-    margin: 30px auto 0;
-    padding: 0 0 30px;
-    text-align: center;
-    color: #F8DA83; }
-
+  padding: 10px 0 0; }
+  @media (min-width: 992px) {
+    #footer {
+      display: grid;
+      grid-template-columns: auto 800px auto;
+      grid-template-areas: ". footer ."; } }
+  #footer #footer-grid {
+    grid-area: footer; }
+    @media (min-width: 768px) {
+      #footer #footer-grid {
+        display: grid;
+        grid-template-columns: 3 1fr;
+        grid-template-areas: "contact logo legal" "social-media logo up";
+        padding: 50px 40px; } }
+    #footer #footer-grid #footer-contact {
+      font-size: 0.9375rem;
+      line-height: 19px;
+      color: #F8DA83;
+      text-align: center; }
+      #footer #footer-grid #footer-contact span {
+        font-weight: 600; }
+      @media (min-width: 768px) {
+        #footer #footer-grid #footer-contact {
+          grid-area: contact;
+          text-align: left; } }
+    @media (min-width: 768px) {
+      #footer #footer-grid ul {
+        grid-area: social-media;
+        display: inline-flex;
+        margin-left: -5px; } }
+    #footer #footer-grid ul li {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #F8DA83; }
+      @media (min-width: 768px) {
+        #footer #footer-grid ul li {
+          display: inline-flex;
+          padding: 0 5px;
+          font-size: 1.875rem; } }
+    #footer #footer-grid #logo {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 768px) {
+        #footer #footer-grid #logo {
+          grid-area: logo;
+          margin-top: 20px; } }
+    #footer #footer-grid h6 {
+      font-family: masqualero, sans-serif;
+      font-weight: 300;
+      font-size: 0.625rem;
+      line-height: 13px;
+      margin: 30px auto 0;
+      padding: 0 0 30px;
+      text-align: center;
+      color: #F8DA83; }
+      @media (min-width: 768px) {
+        #footer #footer-grid h6 {
+          grid-area: legal;
+          text-align: right; } }
+    @media (min-width: 768px) {
+      #footer #footer-grid #back-to-top {
+        grid-area: up;
+        position: relative;
+        left: 130px; } }
+    @media (min-width: 992px) {
+      #footer #footer-grid #back-to-top {
+        left: 160px; } }
 /* =============
     Section 1
 ============= */
@@ -461,15 +513,12 @@ textarea {
   height: 60vh;
   background-size: cover;
   background-position: 640px top; }
-  #section-1 article {
-    width: 100px;
-    height: 100px;
-    background: #C09006;
-    transform: rotate(-45deg);
-    margin: -50px auto; }
   @media (min-width: 768px) {
     #section-1 {
       background-position: center; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 80vh; } }
 /* =============
     Section 2
 ============= */
@@ -937,6 +986,18 @@ textarea {
       color: #fff; }
     #section-5 #section-5-grid #section-5-info p {
       color: #D7DB7C; }
+  #section-5 #section-5-grid #register-button {
+    height: 20vh;
+    width: 20vh;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: #C09006;
+    margin: 30px auto 0; }
+  #section-5 #section-5-grid #pub-crawl-button {
+    height: 20vh;
+    width: 20vh;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: #C09006;
+    margin: 10px auto 0; }
 
 /* =============
     Section 6

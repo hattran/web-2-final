@@ -4,24 +4,27 @@
 
 #footer{
     background-color: $dark-yellow;
-    margin: 50px 0 0;
-    padding: 30px 0 0;
+    padding: 10px 0 0;
 
-    // #diamond{
-    //     width: 80px;
-    //     height: 80px;
-    //     background: $white;
-    //     clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
-    //     margin: -40px auto 0;
-
-    //     @include md{
-    //         width: 140px;
-    //         height: 140px;
-    //         margin: -70px auto;
-    //     }
-    // }
+    @include lg{
+        display: grid;
+        grid-template-columns: auto 800px auto;
+        grid-template-areas: ". footer .";
+    }
 
     #footer-grid{
+
+        grid-area: footer;
+
+        @include md{
+            display: grid;
+            grid-template-columns: 3(1fr);
+            grid-template-areas:
+            "contact logo legal"
+            "social-media logo up";
+
+            padding: 50px 40px;
+        }
 
         #footer-contact{
             font-size: rem-calc(15);
@@ -32,20 +35,42 @@
             span{
                 font-weight: 600;
             }
+
+            @include md{
+                grid-area: contact;
+                text-align: left;
+            }
         }
 
         ul{
+            
+            @include md{
+                grid-area: social-media;
+                display: inline-flex;
+                margin-left: -5px;
+            }
 
             li{
                 text-align: center;
                 font-size: rem-calc(40);
                 color: $light-yellow;
+
+                @include md{
+                    display: inline-flex;
+                    padding: 0 5px;
+                    font-size: rem-calc(30);
+                }
             }
         }
 
-        img{
+        #logo{
             display: block;
             margin: 0 auto;
+            
+            @include md{
+                grid-area: logo;
+                margin-top: 20px;
+            }
         }
 
         h6{
@@ -57,6 +82,24 @@
             padding: 0 0 30px;
             text-align: center;
             color: $light-yellow;
+
+            @include md{
+                grid-area: legal;
+                text-align: right;
+            }
+        }
+
+        #back-to-top{
+
+            @include md{
+                grid-area: up;
+                position: relative;
+                left: 130px;
+            }
+
+            @include lg{
+                left: 160px;
+            }
         }
     }
 }
