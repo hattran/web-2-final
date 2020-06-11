@@ -709,28 +709,28 @@ header {
       @media (min-width: 1200px) {
         #section-2 #section-2-grid #section-2-video {
           margin: 30px 200px 50px; } }
-  #section-2 #diamond {
+  #section-2 #section-2-diamond {
     width: 80px;
     height: 80px;
     background: #EBE5D7;
     clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
     margin: -39px auto; }
     @media (min-width: 768px) {
-      #section-2 #diamond {
+      #section-2 #section-2-diamond {
         width: 140px;
         height: 140px;
         margin: -69px 150px; } }
 /* =============
     Section 3
 ============= */
-#section-3 #diamond {
+#section-3 #section-3-diamond {
   width: 80px;
   height: 80px;
   background: #594022;
   clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
   margin: -40px auto; }
   @media (min-width: 768px) {
-    #section-3 #diamond {
+    #section-3 #section-3-diamond {
       width: 140px;
       height: 140px;
       margin: -70px 150px; } }
@@ -1020,14 +1020,14 @@ header {
 /* =============
     Section 5
 ============= */
-#section-5 #diamond {
+#section-5 #section-5-diamond {
   width: 80px;
   height: 80px;
   background: #EBE5D7;
   clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
   margin: -40px auto; }
   @media (min-width: 768px) {
-    #section-5 #diamond {
+    #section-5 #section-5-diamond {
       width: 140px;
       height: 140px;
       margin: -70px 150px; } }
@@ -1140,14 +1140,14 @@ header {
 ============= */
 #section-6 {
   padding: 0 0 50px; }
-  #section-6 #diamond {
+  #section-6 #section-6-diamond {
     width: 80px;
     height: 80px;
     background: #5E601F;
     clip-path: polygon(100% 50%, 50% 100%, 0% 50%);
     margin: -41px auto; }
     @media (min-width: 768px) {
-      #section-6 #diamond {
+      #section-6 #section-6-diamond {
         width: 140px;
         height: 140px;
         margin: -70px auto; } }
