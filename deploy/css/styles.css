@@ -385,7 +385,9 @@ p {
   margin: 0 0;
   font-family: ivymode, sans-serif;
   font-weight: 600; }
-
+  @media (min-width: 992px) {
+    .mobile-button {
+      font-size: 1.125rem; } }
 /* =============
     Buttons
 ============= */
@@ -989,6 +991,9 @@ textarea {
         grid-area: map;
         margin: 50px 0;
         height: 52vh; } }
+    @media (min-width: 992px) {
+      #section-5 #section-5-grid #section-5-map {
+        margin: 50px 0 0 50px; } }
   #section-5 #section-5-grid #section-5-info {
     margin: 0 20px; }
     #section-5 #section-5-grid #section-5-info h3 {
@@ -1001,19 +1006,33 @@ textarea {
     @media (min-width: 768px) {
       #section-5 #section-5-grid #section-5-info {
         grid-area: info; } }
-  #section-5 #section-5-grid #register-button {
+  @media (min-width: 768px) {
+    #section-5 #section-5-grid #buttons {
+      display: grid;
+      grid-template-columns: 2 1fr;
+      grid-template-areas: "register pub-crawl";
+      margin: 0 100%;
+      gap: 20px; } }
+  #section-5 #section-5-grid #buttons #register-button {
     height: 20vh;
     width: 20vh;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background: #C09006;
     margin: 30px auto 0; }
-  #section-5 #section-5-grid #pub-crawl-button {
+    @media (min-width: 768px) {
+      #section-5 #section-5-grid #buttons #register-button {
+        grid-area: register;
+        margin: 0; } }
+  #section-5 #section-5-grid #buttons #pub-crawl-button {
     height: 20vh;
     width: 20vh;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background: #C09006;
     margin: 10px auto 0; }
-
+    @media (min-width: 768px) {
+      #section-5 #section-5-grid #buttons #pub-crawl-button {
+        grid-area: pub-crawl;
+        margin: 0; } }
 /* =============
     Section 6
 ============= */

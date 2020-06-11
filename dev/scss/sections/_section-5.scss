@@ -55,6 +55,10 @@
                 margin: 50px 0;
                 height: 52vh;
             }
+
+            @include lg{
+                margin: 50px 0 0 50px;
+            }
         }
 
         #section-5-info{
@@ -77,20 +81,41 @@
             }
         }
 
-        #register-button{
-            height: 20vh;
-            width: 20vh;
-            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-            background: $yellow;
-            margin: 30px auto 0;
-        }
+        #buttons{
 
-        #pub-crawl-button{
-            height: 20vh;
-            width: 20vh;
-            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-            background: $yellow;
-            margin: 10px auto 0;
+            @include md{
+                display: grid;
+                grid-template-columns: 2(1fr);
+                grid-template-areas: "register pub-crawl";
+                margin: 0 100%;
+                gap: 20px;
+            }
+
+            #register-button{
+                height: 20vh;
+                width: 20vh;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                background: $yellow;
+                margin: 30px auto 0;
+
+                @include md{
+                    grid-area: register;
+                    margin: 0;
+                }
+            }
+    
+            #pub-crawl-button{
+                height: 20vh;
+                width: 20vh;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                background: $yellow;
+                margin: 10px auto 0;
+
+                @include md{
+                    grid-area: pub-crawl;
+                    margin: 0;
+                }
+            }
         }
     }
 }
