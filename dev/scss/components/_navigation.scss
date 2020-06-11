@@ -4,7 +4,7 @@
 #nav-container {
     ul {
         height: 100%;
-        text-align: right;
+        text-align: left;
 
         @include lg {
             display: flex;
@@ -29,7 +29,7 @@
 
             a:hover,
             a:active {
-                color: $black;
+                color: $light-rust;
             }
         }
     }

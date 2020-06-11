@@ -29,6 +29,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/header/header-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/header/header-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/logo/logo-footer.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -372,6 +382,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/section-5/map.jpg": {
+		"ft": 16384,
+		"iS": 158696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-6/logo1.png": {
 		"ft": 32768,
 		"iS": 8038,
@@ -490,6 +511,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
+	"/deploy/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/design/Ha Solo Project (Master @ 1511012).sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -506,6 +538,14 @@
 		"oAP": "/dev/footer.html",
 		"oF": 0
 		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/header.html",
+		"oF": 0
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -513,6 +553,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/scripts.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -1581,7 +1632,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

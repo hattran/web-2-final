@@ -53,12 +53,20 @@
             li{
                 text-align: center;
                 font-size: rem-calc(40);
-                color: $light-yellow;
 
                 @include md{
                     display: inline-flex;
                     padding: 0 5px;
                     font-size: rem-calc(30);
+                }
+
+                a:link, a:visited{
+                    color: $light-yellow;
+                    transition: 0.25s;
+                }
+
+                a:hover, a:active{
+                    color: $dark-brown;
                 }
             }
         }

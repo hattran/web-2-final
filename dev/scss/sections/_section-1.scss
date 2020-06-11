@@ -6,7 +6,7 @@
     background-image: url("../img/section-1/hero.jpeg");
     height: 60vh;
     background-size: cover;
-    background-position: 640px top;
+    // background-position: 640px top;
 
     @include md{
         background-position: center;
